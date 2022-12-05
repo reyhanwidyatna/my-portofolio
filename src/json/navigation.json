@@ -1,0 +1,14 @@
+[
+    {
+        "id": "home",
+        "title": "Home"
+    },
+    {
+        "id": "experience",
+        "title": "Experience"
+    },
+    {
+        "id": "education",
+        "title": "Education"
+    }
+]

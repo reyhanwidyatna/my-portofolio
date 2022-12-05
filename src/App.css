@@ -1,0 +1,87 @@
+.main {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgb(250, 250, 250);
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  background-color: white;
+}
+
+.navbar {
+  position: fixed;
+  background: white;
+  top: 24px;
+  left: calc(50% - 140px);
+}
+
+.navbar-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-item {
+  margin-right: 24px;
+}
+
+.header {
+  max-width: 800px;
+}
+
+.profile {
+  width: 64px;
+  height: 64px;
+}
+
+.social-media {
+  width: 24px;
+  height: 24px;
+}
+
+.projects {
+  width: 100%;
+  margin-right: 100px;
+}
+
+.projects-detail:first-child {
+  margin-top: 0;
+}
+
+.projects-detail {
+  margin-top: 40px;
+}
+
+.works {
+  width: 100%;
+  max-width: 420px;
+}
+
+.works-detail:first-child {
+  margin-top: 0;
+}
+
+.works-detail {
+  margin-top: 16px;
+}
+
+.company {
+  width: 45px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.company-image {
+  width: 24px;
+}
+
+.download {
+  background-color: rgb(246, 246, 246);
+}
+
+.education-image {
+  width: 64px;
+  height: 64px;
+}

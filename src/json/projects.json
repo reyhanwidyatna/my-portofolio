@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "date": "Sep, 2020 - Oct, 2020",
+        "title": "SAMBAT, Frontend Engineer",
+        "description": "Developed a simple marketplace website to help students in their competitions using NextJS Implement state management concepts and clean code design principle"
+    },
+    {
+        "id": "2",
+        "date": "Jan, 2021 - Mar, 2021",
+        "title": "IPB Connect, Software Engineer",
+        "description": "Redevelop IPB Connect website with clean code design principle, better functionality and new user interface from scratch using NuxtJS and Vuetify (CSS Framework) Implement state management concepts Build User Interfaces and Wire frames on Figma Work closely and Collaborate with Backend Engineer using GitHub"
+    },
+    {
+        "id": "3",
+        "date": "Mar, 2021 - Apr, 2021",
+        "title": "IPB Map, Software Engineer",
+        "description": "Develop a website that looks like a map based on SVG to help people click and inspect locations and see what's inside those locations based on description using Laravel and jQuery"
+    },
+    {
+        "id": "4",
+        "date": "Apr, 2021 - Jun, 2021",
+        "title": "Atourin Marketplace, Frontend Engineer",
+        "description": "Developed a Marketplace feature for Atourin website with clean code design principle and fresh user interface from scratch using NuxtJS and Vuetify (CSS Framework) Implement reusable component and state management concept Collaborate with other developer and UI/UX using GitHub and Zeplin"
+    }
+]
