@@ -1,4 +1,3 @@
-import  { useState, useEffect } from 'react';
 import profile from './assets/profile.jpg';
 import github from './assets/github.svg';
 import linkedin from './assets/linkedin.svg';
@@ -15,7 +14,7 @@ function App() {
   
   return (
     <div className="main">
-      <div className="body container mx-auto py-12">
+      <div id="home" className="body container mx-auto py-12">
         <div className="navbar flex justify-center items-center">
           <div className="shadow-md text-gray-600 text-sm font-semibold border rounded-3xl py-2 px-6">
             {
@@ -27,9 +26,9 @@ function App() {
             }
           </div>
         </div>
-        <div id="home" className="header px-28 mt-16">
+        <div className="header px-8 md:px-28 mt-12 md:mt-16">
           <img className="profile rounded-full" src={profile} alt="profile" />
-          <p className="text-4xl font-bold mt-6">
+          <p className="text-3xl md:text-4xl font-bold mt-6">
             Software engineer.
           </p>
           <p className="text-gray-600 mt-4">
@@ -45,15 +44,15 @@ function App() {
               <img className="social-media" src={github} alt="github" />
             </a>
             <a href="mailto:harwendareyhan@gmail.com?subject=subject&cc=cc@example.com" target="blank">
-              <img className="social-media" src={gmail} alt="gmail" />
+              <img className="social-media-gmail" src={gmail} alt="gmail" />
             </a>
           </div>
         </div>
-        <div id="experience" className="portofolio mt-24 px-28">
+        <div id="experience" className="portofolio mt-12 md:mt-20 px-8 md:px-28">
           <span className="flex text-green-600 font-bold text-lg mb-8">
             Experience
           </span>
-          <div className="flex justify-between">
+          <div className="flex-row md:flex justify-between">
             <div className="projects">
               <span className="font-semibold">Projects</span>
               {
@@ -66,7 +65,7 @@ function App() {
                 ))
               }
             </div>
-            <div className="works border rounded-lg h-fit p-6">
+            <div className="works border rounded-lg h-fit mt-12 p-6 md:mt-0">
               <span className="font-semibold">Work</span>
               {
                 works.map((item, index) => (
@@ -92,7 +91,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div id="education" className="education mt-12 px-28">
+        <div id="education" className="education mt-12 md:mt-20 px-8 md:px-28">
           <span className="flex text-green-600 font-bold text-lg mb-8">
             Education
           </span>
@@ -112,7 +111,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="footer border-t mt-16 pt-10 px-28">
+        <div className="footer border-t mt-12 md:mt-16 pt-6 md:pt-10 px-8 md:px-28">
           <div className="flex text-sm text-gray-600 font-semibold">
             {
               navigation.map((item, index) => (
