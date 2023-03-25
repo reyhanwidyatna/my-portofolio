@@ -1,6 +1,4 @@
-import profile from "./assets/profile.jpg"
-
-
+import home from "./assets/home.svg"
 import github from "./assets/github.svg"
 import linkedin from "./assets/linkedin.svg"
 import gmail from "./assets/gmail.svg"
@@ -18,12 +16,12 @@ function App() {
 
   return (
     <div className="main">
-      <div id="home" className="body container mx-auto py-12">
-        <div className="navbar flex justify-center items-center">
-          <div className="shadow-md text-gray-600 text-sm font-semibold border rounded-3xl py-2 px-6">
+      <div id="home" className="body mx-auto py-8">
+        <div className="navbar flex justify-center items-center rounded-3xl">
+          <div className="shadow-md text-gray-600 text-sm font-semibold rounded-3xl py-2 px-8">
             {navigation.map((item, index) => (
               <span
-                className="navbar-item cursor-pointer"
+                className="navbar-item text-lg cursor-pointer"
                 onClick={() => handleClick(item.id)}
                 key={index}
               >
@@ -32,48 +30,19 @@ function App() {
             ))}
           </div>
         </div>
-        <div className="header px-8 md:px-28 mt-12 md:mt-16">
-          <img className="profile rounded-full" src={profile} alt="profile" />
-          <p className="text-3xl md:text-4xl font-bold mt-6">
-            Software engineer.
+        <div className="background px-8 md:px-28 my-12 md:my-24">
+          <p className="text-3xl md:text-5xl font-bold">
+            Reyhan Widyatna Harwenda
           </p>
-          <p className="text-gray-600 mt-4">
+          <p className="text-gray-600 text-md md:text-xl mt-8">
             Hi there, I’m a software engineer currently focused on frontend
             engineering with almost 2 years experience. I also like to dive deep
-            into and cover all areas of software engineering. I’m also curious
-            and willing to try new things like product management.
+            into and cover all areas of software engineering.
           </p>
-          <div className="flex mt-8">
-            <a
-              className="mr-6"
-              href="https://www.linkedin.com/in/reyhan-widyatna-harwenda/"
-              target="blank"
-            >
-              <img className="social-media" src={linkedin} alt="linkedin" />
-            </a>
-            <a
-              className="mr-6"
-              href="https://github.com/reyhanwidyatna"
-              target="blank"
-            >
-              <img className="social-media" src={github} alt="github" />
-            </a>
-            <a
-              href="mailto:harwendareyhan@gmail.com?subject=subject&cc=cc@example.com"
-              target="blank"
-            >
-              <img className="social-media-gmail" src={gmail} alt="gmail" />
-            </a>
-          </div>
+          <img className="background-image mt-24" src={home} alt="banner" />
         </div>
-        <div
-          id="experience"
-          className="portofolio mt-12 md:mt-20 px-8 md:px-28"
-        >
-          <span className="flex text-green-600 font-bold text-lg mb-8">
-            Experience
-          </span>
-          <div className="flex-row md:flex justify-between">
+        <div id="experience" className="experience p-12 md:p-20">
+          <div className="experience-detail flex-row md:flex justify-between">
             <div className="projects">
               <span className="font-semibold">Projects</span>
               {projects.map((item, index) => (
@@ -110,7 +79,7 @@ function App() {
                   </div>
                 </div>
               ))}
-              <button className="download w-full rounded mt-6">
+              <button className="download w-full rounded mt-6 py-1">
                 <a
                   href={window.location.origin + "/cv.pdf"}
                   download="Reyhan CV"
@@ -143,7 +112,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="footer border-t mt-12 md:mt-16 pt-6 md:pt-10 px-8 md:px-28">
+        <div className="footer flex justify-between border-t mt-12 md:mt-16 pt-6 md:pt-10 px-8 md:px-28">
           <div className="flex text-sm text-gray-600 font-semibold">
             {navigation.map((item, index) => (
               <span
@@ -154,6 +123,28 @@ function App() {
                 {item.title}
               </span>
             ))}
+          </div>
+          <div className="flex">
+            <a
+              className="mr-6"
+              href="https://www.linkedin.com/in/reyhan-widyatna-harwenda/"
+              target="blank"
+            >
+              <img className="social-media" src={linkedin} alt="linkedin" />
+            </a>
+            <a
+              className="mr-6"
+              href="https://github.com/reyhanwidyatna"
+              target="blank"
+            >
+              <img className="social-media" src={github} alt="github" />
+            </a>
+            <a
+              href="mailto:harwendareyhan@gmail.com?subject=subject&cc=cc@example.com"
+              target="blank"
+            >
+              <img className="social-media-gmail" src={gmail} alt="gmail" />
+            </a>
           </div>
         </div>
       </div>

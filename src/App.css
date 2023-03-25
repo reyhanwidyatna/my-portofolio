@@ -2,21 +2,19 @@
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  background-color: rgb(250, 250, 250);
 }
 
 .body {
   width: 100%;
   height: 100%;
-  max-width: 1280px;
-  background-color: white;
+  background-color: #f7f6f5;
 }
 
 .navbar {
   position: fixed;
-  background: white;
-  top: 24px;
-  left: calc(50% - 140px);
+  top: 32px;
+  left: calc(50% - 180px);
+  background-color: #f7f6f5;
 }
 
 .navbar-item:last-child {
@@ -27,13 +25,15 @@
   margin-right: 24px;
 }
 
-.header {
-  max-width: 800px;
+.background {
+  max-width: 1080px;
+  text-align: center;
+  margin: auto;
 }
 
-.profile {
-  width: 64px;
-  height: 64px;
+.background-image {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .social-media {
@@ -44,6 +44,15 @@
 .social-media-gmail {
   width: 22px;
   height: 22px;
+}
+
+.experience {
+  background-color: #EBE8E6;
+}
+
+.experience-detail {
+  max-width: 1280px;
+  margin: auto;
 }
 
 .projects {
@@ -83,7 +92,12 @@
 }
 
 .download {
-  background-color: rgb(246, 246, 246);
+  background-color: #c26148;
+  color: #ffffff;
+}
+
+.education {
+  /* background-color: #C26148; */
 }
 
 .education-image {
