@@ -128,11 +128,13 @@ function App() {
             </div>
             <p className="text-white text-md md:text-xl font-bold w-full mb-4 md:mb-8">Find Me On</p>
             <div className="grid gap-6 md:grid-cols-3 mb-4">
-              <div className="text-sm md:text-md flex flex-col justify-center items-center text-center text-white py-4 px-2 md:py-8 md:px-4 border-4 border-white rounded">
+              <div className="flex flex-col justify-center items-center text-center text-sm md:text-md text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
                 <div className="flex justify-center items-center about-social-media mb-6 md:mb-10">
                   <img src={logoLinkedin} alt="linkedin" />
                 </div>
-                <p className="mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nihil molestiae amet. Sit unde dicta quaerat accusamus</p>
+                <p className="mb-6">
+                  Visit me on LinkedIn to find out what i've done in professional way!
+                </p>
                 <a
                   className="about-button py-1 px-4 font-semibold rounded"
                   href="https://www.linkedin.com/in/reyhan-widyatna-harwenda/"
@@ -141,11 +143,13 @@ function App() {
                   Visit
                 </a>
               </div>
-              <div className="text-sm md:text-md flex flex-col justify-center items-center text-center text-white py-8 px-4 border-4 border-white rounded">
+              <div className="flex flex-col justify-center items-center text-center text-sm md:text-md text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
                 <div className="flex justify-center items-center about-social-media mb-6 md:mb-10">
                   <img src={logoInstagram} alt="instagram" />
                 </div>
-                <p className="mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nihil molestiae amet. Sit unde dicta quaerat accusamus</p>
+                <p className="mb-6">
+                  Check me out on Instagram to see what I do on a daily basis and what I do besides work!
+                </p>
                 <a
                   className="about-button py-1 px-4 font-semibold rounded"
                   href="https://www.instagram.com/reyhannwh/"
@@ -154,11 +158,13 @@ function App() {
                   Visit
                 </a>
               </div>
-              <div className="text-sm md:text-md flex flex-col justify-center items-center text-center text-white py-8 px-4 border-4 border-white rounded">
+              <div className="flex flex-col justify-center items-center text-center text-sm md:text-md text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
                 <div className="flex justify-center items-center about-social-media mb-6 md:mb-10">
                   <img src={logoGmail} alt="gmail" />
                 </div>
-                <p className="mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nihil molestiae amet. Sit unde dicta quaerat accusamus</p>
+                <p className="mb-6">
+                  Feel free to email me if you'd like to just chat or offer an opportunity
+                </p>
                 <a
                   className="about-button py-1 px-4 font-semibold rounded"
                   href="mailto:harwendareyhan@gmail.com?subject=subject&cc=cc@example.com"
