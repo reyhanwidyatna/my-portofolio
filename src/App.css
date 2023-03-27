@@ -29,6 +29,7 @@
   max-width: 1080px;
   text-align: center;
   margin: auto;
+  min-height: 60vh;
 }
 
 .background-image {
@@ -37,17 +38,17 @@
 }
 
 .social-media {
+  width: 28px;
+  height: 28px;
+}
+
+.social-media-gmail {
   width: 24px;
   height: 24px;
 }
 
-.social-media-gmail {
-  width: 22px;
-  height: 22px;
-}
-
 .experience {
-  background-color: #EBE8E6;
+  background-color: #ebe8e6;
 }
 
 .experience-detail {
@@ -65,7 +66,11 @@
 }
 
 .projects-detail {
-  margin-top: 40px;
+  margin-top: 32px;
+}
+
+.projects-date {
+  color: #c26148;
 }
 
 .works {
@@ -96,13 +101,36 @@
   color: #ffffff;
 }
 
-.education {
-  /* background-color: #C26148; */
+.about {
+  background-color: #c26148;
 }
 
-.education-image {
-  width: 64px;
-  height: 64px;
+.about-detail {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.about-social-media {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.about-social-media img {
+  width: 32px;
+  height: 32px;
+}
+
+.about-button {
+  width: fit-content;
+  color: #c26148;
+  background-color: #ffffff;
+}
+
+.about-education {
+  width: 96px;
+  height: 96px;
 }
 
 @media screen and (max-width: 768px) {

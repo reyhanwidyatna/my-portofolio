@@ -1,7 +1,12 @@
-import home from "./assets/home.svg"
-import github from "./assets/github.svg"
-import linkedin from "./assets/linkedin.svg"
-import gmail from "./assets/gmail.svg"
+import home from "./assets/svg/home.svg"
+import github from "./assets/svg/github.svg"
+import linkedin from "./assets/svg/linkedin.svg"
+import gmail from "./assets/svg/gmail.svg"
+
+import ipb from "./assets/png/ipb.png"
+import logoInstagram from "./assets/png/instagram.png"
+import logoLinkedin from "./assets/png/linkedin.png"
+import logoGmail from "./assets/png/gmail.png"
 
 import projects from "./json/projects.json"
 import works from "./json/works.json"
@@ -35,30 +40,28 @@ function App() {
             Reyhan Widyatna Harwenda
           </p>
           <p className="text-gray-600 text-md md:text-xl mt-8">
-            Hi there, I’m a software engineer currently focused on frontend
-            engineering with almost 2 years experience. I also like to dive deep
-            into and cover all areas of software engineering.
+            Frontend Engineer
           </p>
           <img className="background-image mt-24" src={home} alt="banner" />
         </div>
         <div id="experience" className="experience p-12 md:p-20">
           <div className="experience-detail flex-row md:flex justify-between">
             <div className="projects">
-              <span className="font-semibold">Projects</span>
+              <p className="font-semibold text-2xl">Projects</p>
               {projects.map((item, index) => (
                 <div className="projects-detail" key={index}>
-                  <p className="text-neutral-400 text-sm border-l-2 pl-3 leading-4">
+                  <p className="projects-date font-bold text-sm leading-4">
                     {item.date}
                   </p>
                   <p className="font-semibold mt-2">{item.title}</p>
-                  <p className="text-gray-500 text-sm mt-2 leading-6">
+                  <p className="text-gray-500 text-md mt-2 leading-6 text-justify">
                     {item.description}
                   </p>
                 </div>
               ))}
             </div>
-            <div className="works border rounded-lg h-fit mt-12 p-6 md:mt-0">
-              <span className="font-semibold">Work</span>
+            <div className="works border rounded-lg h-fit mt-12 px-4 md:mt-0">
+              <p className="font-semibold text-2xl">Work</p>
               {works.map((item, index) => (
                 <div className="works-detail flex items-center" key={index}>
                   <div className="company mr-4 border flex justify-center items-center">
@@ -69,12 +72,12 @@ function App() {
                     />
                   </div>
                   <div className="w-full">
-                    <span className="font-semibold text-sm">
+                    <p className="font-semibold text-md mb-1">
                       {item.company}
-                    </span>
-                    <div className="flex justify-between mt-1">
-                      <p className="text-gray-500 text-sm">{item.title}</p>
-                      <p className="text-gray-500 text-xs">{item.date}</p>
+                    </p>
+                    <div className="flex justify-between">
+                      <p className="text-gray-500 text-md">{item.title}</p>
+                      <p className="text-gray-500 text-sm">{item.date}</p>
                     </div>
                   </div>
                 </div>
@@ -82,7 +85,7 @@ function App() {
               <button className="download w-full rounded mt-6 py-1">
                 <a
                   href={window.location.origin + "/cv.pdf"}
-                  download="Reyhan CV"
+                  download="reyhan_widyatna_harwenda_CV.pdf"
                 >
                   <p className="font-semibold text-sm py-2">Download CV</p>
                 </a>
@@ -90,30 +93,82 @@ function App() {
             </div>
           </div>
         </div>
-        <div id="education" className="education mt-12 md:mt-20 px-8 md:px-28">
-          <span className="flex text-green-600 font-bold text-lg mb-8">
-            Education
-          </span>
-          <div className="flex items-center">
-            <img
-              className="education-image mr-6"
-              src="ipb.png"
-              alt="education"
-            />
-            <div>
-              <p className="font-semibold">IPB University</p>
-              <span className="text-gray-600 text-sm">
-                Computer Science, Faculty of Mathematics and Natural Science
-              </span>
-              <div className="flex text-xs text-gray-400 mt-2">
-                <span className="mr-4">GPK: 3.32</span>
-                <span>2017 - 2021</span>
+        <div id="about" className="about p-8 md:p-20">
+          <div className="about-detail flex flex-col items-center">
+            <p className="text-center text-white font-bold text-3xl mb-16">
+              About me
+            </p>
+            <p className="text-white text-lg text-justify mb-16">
+              Hi there, I’m Reyhan and im a software engineer that currently focused on frontend
+              engineering with almost 2 years experience. I also like to dive deep
+              into and cover all areas of software engineering. I'm also curious
+              and willing to try new things like product management. I was graduated from 
+              IPB University in 2021. My hobbies are playing computer games and watching movies.
+            </p>
+            <p className="text-white text-xl font-bold w-full mb-8">My Last Education</p>
+            <div className="flex items-center text-white w-full mb-16">
+              <img
+                className="about-education mr-8"
+                src={ipb}
+                alt="education"
+              />
+              <div>
+                <p className="font-semibold text-lg">Bogor Agricultural University</p>
+                <p className="text-lg mb-4">
+                  Computer Science, Faculty of Mathematics and Natural Science
+                </p>
+                <div className="flex text-md mt-2">
+                  <span className="mr-4">GPK: 3.32</span>
+                  <span>2017 - 2021</span>
+                </div>
+              </div>
+            </div>
+            <p className="text-white text-xl font-bold w-full mb-8">Find Me On</p>
+            <div className="grid gap-6 grid-cols-3 mb-4">
+              <div className="flex flex-col justify-center items-center text-center text-white py-8 px-4 border-4 border-white rounded">
+                <div className="flex justify-center items-center about-social-media mb-10">
+                  <img src={logoLinkedin} alt="linkedin" />
+                </div>
+                <p className="text-md mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nihil molestiae amet. Sit unde dicta quaerat accusamus</p>
+                <a
+                  className="about-button py-1 px-4 font-semibold rounded"
+                  href="https://www.linkedin.com/in/reyhan-widyatna-harwenda/"
+                  target="_blank" rel="noreferrer"
+                >
+                  Visit
+                </a>
+              </div>
+              <div className="flex flex-col justify-center items-center text-center text-white py-8 px-4 border-4 border-white rounded">
+                <div className="flex justify-center items-center about-social-media mb-10">
+                  <img src={logoInstagram} alt="instagram" />
+                </div>
+                <p className="text-md mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nihil molestiae amet. Sit unde dicta quaerat accusamus</p>
+                <a
+                  className="about-button py-1 px-4 font-semibold rounded"
+                  href="https://www.instagram.com/reyhannwh/"
+                  target="_blank" rel="noreferrer"
+                >
+                  Visit
+                </a>
+              </div>
+              <div className="flex flex-col justify-center items-center text-center text-white py-8 px-4 border-4 border-white rounded">
+                <div className="flex justify-center items-center about-social-media mb-10">
+                  <img src={logoGmail} alt="gmail" />
+                </div>
+                <p className="text-md mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nihil molestiae amet. Sit unde dicta quaerat accusamus</p>
+                <a
+                  className="about-button py-1 px-4 font-semibold rounded"
+                  href="mailto:harwendareyhan@gmail.com?subject=subject&cc=cc@example.com"
+                  target="_blank" rel="noreferrer"
+                >
+                  Visit
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="footer flex justify-between border-t mt-12 md:mt-16 pt-6 md:pt-10 px-8 md:px-28">
-          <div className="flex text-sm text-gray-600 font-semibold">
+        <div className="footer flex justify-between items-center border-t pt-6 md:pt-10 px-8 md:px-28">
+          <div className="flex text-lg text-gray-600 font-semibold">
             {navigation.map((item, index) => (
               <span
                 className="navbar-item cursor-pointer"
@@ -124,7 +179,7 @@ function App() {
               </span>
             ))}
           </div>
-          <div className="flex">
+          <div className="flex items-center">
             <a
               className="mr-6"
               href="https://www.linkedin.com/in/reyhan-widyatna-harwenda/"
