@@ -139,4 +139,27 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    top: 16px;
+    left: calc(50% - 150px);
+  }
+
+  .background-image {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .company-image {
+    width: 24px;
+  }
+
+  .about-education {
+    width: 64px;
+    height: 64px;
+  }
+
+  .footer-social-media {
+    display: none;
+  }
 }
