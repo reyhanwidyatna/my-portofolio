@@ -73,6 +73,11 @@
   color: #c26148;
 }
 
+.projects-link {
+  color: #355aff;
+  text-decoration: underline;
+}
+
 .works {
   width: 100%;
   max-width: 420px;
@@ -93,7 +98,7 @@
 }
 
 .company-image {
-  width: 24px;
+  width: 30px;
 }
 
 .download {

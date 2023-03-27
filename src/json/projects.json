@@ -3,18 +3,21 @@
     "id": "1",
     "date": "Jan, 2021 - Mar, 2021",
     "title": "IPB Connect, Software Engineer",
-    "description": "Redevelop IPB Connect website with clean code design principle, better functionality and new user interface from scratch using NuxtJS and Vuetify (CSS Framework) Implement state management concepts Build User Interfaces and Wire frames on Figma Work closely and Collaborate with Backend Engineer using GitHub"
+    "description": "IPB Connect is a platform that helps you to find a job and maintain your relationship with alumni, friends or even your juniors. This website is specifically for students of the Bogor Agricultural Institute and can only be accessed via the university's email.",
+    "visit": "https://ipbconnect.ipb.ac.id"
   },
   {
     "id": "2",
     "date": "Apr, 2021 - Jun, 2021",
     "title": "Atourin Marketplace, Frontend Engineer",
-    "description": "Developed a Marketplace feature for Atourin website with clean code design principle and fresh user interface from scratch using NuxtJS and Vuetify (CSS Framework) Implement reusable component and state management concept Collaborate with other developer and UI/UX using GitHub and Zeplin"
+    "description": "Marketplace is a feature for you to enjoy products and services from tourism actors in Indonesia, such as tour packages, local activities, homestays, and local souvenirs.",
+    "visit": "https://atourin.com/marketplace"
   },
   {
     "id": "3",
     "date": "Sep, 2021 - Oct, 2022",
     "title": "Twibbonize, Frontend Engineer",
-    "description": "Redevelop IPB Connect website with clean code design principle, better functionality and new user interface from scratch using NuxtJS and Vuetify (CSS Framework) Implement state management concepts Build User Interfaces and Wire frames on Figma Work closely and Collaborate with Backend Engineer using GitHub"
+    "description": "Twibbonize is a simple, personalized, and easy-to-use platform built for people & organizations around the world to create, share or find a campaign.",
+    "visit": "https://twibbonize.com"
   }
 ]

@@ -18,6 +18,18 @@ function App() {
   const handleClick = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
   };
+  
+  // const downloadCV = () => {
+  //   fetch('cv.pdf').then(response => {
+  //       response.blob().then(blob => {
+  //           const fileURL = window.URL.createObjectURL(blob);
+  //           let alink = document.createElement('a');
+  //           alink.href = fileURL;
+  //           alink.download = 'reyhan_widyatna_harwenda_cv.pdf';
+  //           alink.click();
+  //       })
+  //   })
+  // };
 
   return (
     <div className="main">
@@ -54,9 +66,10 @@ function App() {
                     {item.date}
                   </p>
                   <p className="font-semibold mt-2">{item.title}</p>
-                  <p className="text-gray-500 text-md mt-2 leading-6 text-justify">
+                  <p className="text-gray-500 text-md mt-2 mb-2 leading-6 text-justify">
                     {item.description}
                   </p>
+                  <a className="projects-link text-md" href={item.visit} target="_blank" rel="noreferrer">{item.visit}</a>
                 </div>
               ))}
             </div>
@@ -76,7 +89,7 @@ function App() {
                       {item.company}
                     </p>
                     <div className="flex justify-between">
-                      <p className="text-gray-500 text-md">{item.title}</p>
+                      <p className="text-gray-500 text-sm">{item.title}</p>
                       <p className="text-gray-500 text-sm">{item.date}</p>
                     </div>
                   </div>
@@ -86,6 +99,7 @@ function App() {
                 <a
                   href={window.location.origin + "/cv.pdf"}
                   download="reyhan_widyatna_harwenda_CV.pdf"
+                  target="_blank" rel="noreferrer"
                 >
                   <p className="font-semibold text-sm py-2">Download CV</p>
                 </a>
