@@ -12,24 +12,13 @@ import projects from "./json/projects.json"
 import works from "./json/works.json"
 import navigation from "./json/navigation.json"
 
+
 import "./App.css";
 
 function App() {
   const handleClick = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
   };
-  
-  // const downloadCV = () => {
-  //   fetch('cv.pdf').then(response => {
-  //       response.blob().then(blob => {
-  //           const fileURL = window.URL.createObjectURL(blob);
-  //           let alink = document.createElement('a');
-  //           alink.href = fileURL;
-  //           alink.download = 'reyhan_widyatna_harwenda_cv.pdf';
-  //           alink.click();
-  //       })
-  //   })
-  // };
 
   return (
     <div className="main">
@@ -97,7 +86,7 @@ function App() {
               ))}
               <button className="download w-full rounded mt-6 py-1">
                 <a
-                  href={window.location.origin + "/cv.pdf"}
+                  href="cv.pdf"
                   download="reyhan_widyatna_harwenda_CV.pdf"
                   target="_blank" rel="noreferrer"
                 >
