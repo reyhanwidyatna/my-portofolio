@@ -40,7 +40,7 @@ function App() {
           <p className="text-3xl md:text-5xl font-bold">
             Reyhan Widyatna Harwenda
           </p>
-          <p className="text-gray-600 text-md md:text-xl mt-4 md:mt-8">
+          <p className="text-gray-600 text-base md:text-xl mt-4 md:mt-8">
             Frontend Engineer
           </p>
           <img className="background-image mt-24" src={home} alt="banner" />
@@ -51,14 +51,14 @@ function App() {
               <p className="font-semibold text-xl md:text-2xl">Projects</p>
               {projects.map((item, index) => (
                 <div className="projects-detail" key={index}>
-                  <p className="projects-date font-bold text-xs md:text-sm leading-4">
+                  <p className="projects-date font-bold text-sm md:text-base leading-4">
                     {item.date}
                   </p>
-                  <p className="font-semibold text-sm md:text-md mt-2">{item.title}</p>
-                  <p className="text-gray-500 text-sm md:text-md mt-2 mb-2 leading-6 text-justify">
+                  <p className="font-semibold text-sm md:text-lg mt-2">{item.title}</p>
+                  <p className="text-gray-500 text-sm md:text-base mt-1 mb-2 leading-6 text-justify">
                     {item.description}
                   </p>
-                  <a className="projects-link text-sm md:text-md" href={item.visit} target="_blank" rel="noreferrer">{item.visit}</a>
+                  <a className="projects-link text-sm md:text-base" href={item.visit} target="_blank" rel="noreferrer">{item.visit}</a>
                 </div>
               ))}
             </div>
@@ -74,7 +74,7 @@ function App() {
                     />
                   </div>
                   <div className="w-full">
-                    <p className="font-semibold text-sm md:text-md mb-1">
+                    <p className="font-semibold text-sm md:text-base mb-1">
                       {item.company}
                     </p>
                     <div className="flex justify-between">
@@ -108,7 +108,7 @@ function App() {
               and willing to try new things like product management. I was graduated from 
               IPB University in 2021. My hobbies are playing computer games and watching movies.
             </p>
-            <p className="text-white text-md md:text-xl font-bold w-full mb-4 md:mb-8">My Last Education</p>
+            <p className="text-white text-base md:text-xl font-bold w-full mb-4 md:mb-8">My Last Education</p>
             <div className="flex items-center text-white w-full mb-10 md:mb-16">
               <img
                 className="about-education mr-4 md:mr-8"
@@ -120,15 +120,15 @@ function App() {
                 <p className="text-xs md:text-lg mb-4">
                   Computer Science, Faculty of Mathematics and Natural Science
                 </p>
-                <div className="flex text-xs md:text-md mt-2">
+                <div className="flex text-xs md:text-base mt-2">
                   <span className="mr-4">GPK: 3.32</span>
                   <span>2017 - 2021</span>
                 </div>
               </div>
             </div>
-            <p className="text-white text-md md:text-xl font-bold w-full mb-4 md:mb-8">Find Me On</p>
+            <p className="text-white text-base md:text-xl font-bold w-full mb-4 md:mb-8">Find Me On</p>
             <div className="grid gap-6 md:grid-cols-3 mb-4">
-              <div className="flex flex-col justify-center items-center text-center text-sm md:text-md text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
+              <div className="flex flex-col justify-center items-center text-center text-sm md:text-base text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
                 <div className="flex justify-center items-center about-social-media mb-6 md:mb-10">
                   <img src={logoLinkedin} alt="linkedin" />
                 </div>
@@ -143,7 +143,7 @@ function App() {
                   Visit
                 </a>
               </div>
-              <div className="flex flex-col justify-center items-center text-center text-sm md:text-md text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
+              <div className="flex flex-col justify-center items-center text-center text-sm md:text-base text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
                 <div className="flex justify-center items-center about-social-media mb-6 md:mb-10">
                   <img src={logoInstagram} alt="instagram" />
                 </div>
@@ -158,7 +158,7 @@ function App() {
                   Visit
                 </a>
               </div>
-              <div className="flex flex-col justify-center items-center text-center text-sm md:text-md text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
+              <div className="flex flex-col justify-center items-center text-center text-sm md:text-base text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
                 <div className="flex justify-center items-center about-social-media mb-6 md:mb-10">
                   <img src={logoGmail} alt="gmail" />
                 </div>
