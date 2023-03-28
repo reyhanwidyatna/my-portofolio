@@ -133,7 +133,7 @@ function App() {
                   <img src={logoLinkedin} alt="linkedin" />
                 </div>
                 <p className="mb-6">
-                  Check me out on LinkedIn to see what I've done professionally!
+                  Check me out on LinkedIn to see my portofolio and see what I've done professionally!
                 </p>
                 <a
                   className="about-button py-1 px-4 font-semibold rounded"
