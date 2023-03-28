@@ -4,13 +4,13 @@
     "date": "Jan, 2021 - Mar, 2021",
     "title": "IPB Connect, Software Engineer",
     "description": "IPB Connect is a platform that helps you to find a job and maintain your relationship with alumni, friends or even your juniors. This website is specifically for students of the Bogor Agricultural Institute and can only be accessed via the university's email.",
-    "visit": "https://ipbconnect.ipb.ac.id"
+    "visit": "https://ipbconnect.ipb.ac.id/"
   },
   {
     "id": "2",
     "date": "Sep, 2021 - Oct, 2022",
     "title": "Twibbonize, Frontend Engineer",
     "description": "Twibbonize is a simple, personalized, and easy-to-use platform built for people & organizations around the world to create, share or find a campaign.",
-    "visit": "https://twibbonize.com"
+    "visit": "https://twibbonize.com/"
   }
 ]
