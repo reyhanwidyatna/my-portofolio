@@ -128,7 +128,7 @@ function App() {
             </div>
             <p className="text-white text-base md:text-xl font-bold w-full mb-4 md:mb-8">Find Me On</p>
             <div className="grid gap-6 md:grid-cols-3 mb-4">
-              <div className="flex flex-col justify-center items-center text-center text-sm md:text-base text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
+              <div className="flex flex-col justify-between items-center text-center text-sm md:text-base text-white py-4 px-4 md:py-10 md:px-8 border-4 border-white rounded">
                 <div className="flex justify-center items-center about-social-media mb-6 md:mb-10">
                   <img src={logoLinkedin} alt="linkedin" />
                 </div>
@@ -143,7 +143,7 @@ function App() {
                   Visit
                 </a>
               </div>
-              <div className="flex flex-col justify-center items-center text-center text-sm md:text-base text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
+              <div className="flex flex-col justify-between items-center text-center text-sm md:text-base text-white py-4 px-4 md:py-10 md:px-8 border-4 border-white rounded">
                 <div className="flex justify-center items-center about-social-media mb-6 md:mb-10">
                   <img src={logoInstagram} alt="instagram" />
                 </div>
@@ -158,7 +158,7 @@ function App() {
                   Visit
                 </a>
               </div>
-              <div className="flex flex-col justify-center items-center text-center text-sm md:text-base text-white py-4 px-2 md:py-10 md:px-8 border-4 border-white rounded">
+              <div className="flex flex-col justify-between items-center text-center text-sm md:text-base text-white py-4 px-4 md:py-10 md:px-8 border-4 border-white rounded">
                 <div className="flex justify-center items-center about-social-media mb-6 md:mb-10">
                   <img src={logoGmail} alt="gmail" />
                 </div>
