@@ -23,6 +23,7 @@
   top: 32px;
   left: calc(50% - 192px);
   background-color: var(--background);
+  z-index: 1;
 }
 
 .navbar-parent {

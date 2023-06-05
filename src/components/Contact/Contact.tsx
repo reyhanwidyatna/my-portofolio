@@ -7,7 +7,7 @@ export default function Contact() {
     <div id="findme" className="findme p-8 md:p-20">
       <div className="findme-detail">
         <p className="text-base md:text-xl font-bold w-full mb-6 md:mb-8">Find Me</p>
-        <div className="grid gap-8 md:gap-32 md:grid-cols-3 mb-4">
+        <div className="grid gap-12 md:gap-32 md:grid-cols-3 mb-4">
           <div className="findme-card">
             <div className="findme-card-inner flex justify-center items-center text-center text-sm md:text-base">
               <div className="findme-card-front flex flex-col justify-center items-center">
