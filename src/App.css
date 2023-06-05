@@ -249,6 +249,10 @@
   .findme-social-media img {
     width: 32px;
   }
+
+  .footer-social-media {
+    display: none;
+  }
 }
 
 
