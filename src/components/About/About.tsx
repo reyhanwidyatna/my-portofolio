@@ -11,8 +11,7 @@ export default function About() {
           Hi there, I’m Reyhan and im a software engineer that currently focused on frontend
           engineering with almost 2 years experience. I also like to dive deep
           into and cover all areas of software engineering. I'm also curious
-          and willing to try new things like product management. I was graduated from 
-          IPB University in 2021. My hobbies are playing computer games and watching movies.
+          and willing to try new things like product management.
         </p>
         <p className="text-white text-base md:text-xl font-bold w-full mb-4 md:mb-8">Education</p>
         <div className="flex items-center text-white w-full mb-10 md:mb-16">
