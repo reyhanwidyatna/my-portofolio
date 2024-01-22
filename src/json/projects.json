@@ -2,15 +2,29 @@
   {
     "id": "1",
     "date": "Jan, 2021 - Mar, 2021",
-    "title": "IPB Connect, Software Engineer",
-    "description": "IPB Connect is a platform that helps you to maintain your relationship with alumni, friends or even your juniors. This website is specifically for students of the Bogor Agricultural Institute and can only be accessed via the university's email.",
+    "title": "IPB Connect, Frontend Engineer",
+    "description": "IPB Connect serves as a dedicated platform for fostering and nurturing connections among alumni, friends, and juniors. Accessible exclusively through the university's email system, this platform is tailored for the esteemed community of the Bogor Agricultural Institute, providing a professional space to uphold and strengthen these valuable relationships.",
     "visit": "https://ipbconnect.ipb.ac.id"
   },
   {
-    "id": "3",
+    "id": "2",
     "date": "Sep, 2021 - Oct, 2022",
     "title": "Twibbonize, Frontend Engineer",
-    "description": "Twibbonize is a simple, personalized, and easy-to-use platform built for people & organizations around the world to create, share or find a campaign.",
+    "description": "Twibbonize is a straightforward, personalized, and user-friendly platform designed to empower individuals and organizations globally. It provides a seamless experience for creating, sharing, or discovering campaigns, making it easier for users to engage with causes that matter to them.",
     "visit": "https://twibbonize.com"
+  },
+  {
+    "id": "3",
+    "date": "Jul, 2023",
+    "title": "Museum IPB, Software Engineer",
+    "description": "Create a feature for users to work with digital sticky notes. By going paperless, we reduce environmental impact, and by using local storage, users can accesstheir notes even after closing the website.",
+    "visit": "https://museum.ipb.ac.id/notes"
+  },
+  {
+    "id": "3",
+    "date": "Sep, 2023 - Oct, 2023",
+    "title": "Integrated Service Center, Software Engineer",
+    "description": "Develop a comprehensive system for managing queuing tickets at the student center, aimed atstreamlining the process for students. This includes providing a user-friendly online bookingplatform that allows students to schedule their visits conveniently.",
+    "visit": "https://isc.ipb.ac.id"
   }
 ]

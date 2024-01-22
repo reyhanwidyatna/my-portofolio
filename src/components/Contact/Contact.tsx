@@ -62,7 +62,7 @@ export default function Contact() {
               </div>
               <div className="findme-card-back flex flex-col justify-center items-center text-center">
                 <p className="mb-6 px-10">
-                  Check me out on LinkedIn to see my portofolio and see what I've done professionally!
+                  Drop me an email to explore my professional journey and discover more about my accomplishments and portfolio!
                 </p>
                 <a
                   className="findme-card-back-button py-1 px-4 font-semibold rounded"

@@ -21,7 +21,7 @@ export default function Experience() {
           ))}
         </div>
         <div className="works border rounded-lg h-fit mt-12 md:px-4 md:mt-0">
-          <p className="font-semibold text-xl md:text-2xl">Work</p>
+          <p className="font-semibold text-xl md:text-2xl">Working Experiences</p>
           {works.map((item, index) => (
             <div className="works-detail flex items-center" key={index}>
               <div className="company mr-4 border flex justify-center items-center">
